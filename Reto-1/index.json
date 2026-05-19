@@ -1,0 +1,17 @@
+{
+  "title": "Reto 1: Evidencia volátil",
+  "description": "El pod murió, pero dejó rastros. ¿Puedes recuperarlos?",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup/background.sh"
+    },
+    "steps": [],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
