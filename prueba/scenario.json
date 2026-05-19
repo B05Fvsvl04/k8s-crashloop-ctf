@@ -4,10 +4,12 @@
   "backend": {
     "imageid": "ubuntu"
   },
-  "steps": [
-    {
-      "title": "Paso Unico",
-      "text": "step1.md"
-    }
-  ]
+  "details": {
+    "steps": [
+      {
+        "title": "Paso Unico",
+        "text": "step1.md"
+      }
+    ]
+  }
 }
