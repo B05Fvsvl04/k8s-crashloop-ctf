@@ -1,0 +1,14 @@
+{
+  "levels": [
+    {
+      "title": "Kubernetes Troubleshooting CTF",
+      "scenarios": [
+        {
+          "title": "La Pesadilla del CrashLoopBackOff",
+          "description": "Aplica la ciencia del debugging en K8s para encontrar las flags ocultas.",
+          "dir": "crashloop-challenge"
+        }
+      ]
+    }
+  ]
+}
