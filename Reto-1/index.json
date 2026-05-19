@@ -1,6 +1,6 @@
 {
   "title": "Reto 1: Evidencia volátil",
-  "description": "El pod murió, pero dejó rastros. ¿Puedes recuperarlos?",
+  "description": "El pod no levanta. La evidencia está en otro lugar.",
   "details": {
     "intro": {
       "text": "intro.md",
@@ -8,8 +8,8 @@
     },
     "steps": [
       {
-        "title": "Recupera la flag",
-        "text": "step1.md",
+        "title": "Encuentra la flag",
+        "text": "intro.md",
         "verify": "verify/verify.sh"
       }
     ],
