@@ -10,7 +10,7 @@
       {
         "title": "Encuentra la flag",
         "text": "step1/step1.md",
-        "verify": "verify.sh",
+        "verify": "step1/verify.sh",
         "unskippable": true,
         "hint": "Kubernetes guarda más información de la que muestran los logs."
       }
