@@ -3,7 +3,7 @@
   "description": "Let users copy or exec code blocks",
   "details": {
     "intro": {
-      "text": "HOLA RICARDO"
+      "title": "HOLA RICARDO",
       "text": "intro.md"
     },
     "steps": [
