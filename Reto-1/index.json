@@ -9,8 +9,9 @@
     "steps": [
       {
         "title": "Encuentra la flag",
-        "text": "intro.md",
-        "verify": "verify/verify.sh"
+        "text": "step1.md",
+        "verify": "verify/verify.sh",
+        "unskippable": true
       }
     ],
     "finish": {
