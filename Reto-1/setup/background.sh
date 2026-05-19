@@ -30,3 +30,12 @@ spec:
       path: /tmp/ctf-state
       type: DirectoryOrCreate
 EOF
+
+# Esperar a que el pod haya crasheado al menos 2 veces
+echo "Esperando reinicios..."
+while true; do
+  RESTARTS=$(kubectl get pod victima-pod -n ctf \
+    -o jsonpath='{.status.containerStatuses[0].restartCount}' 2>/dev/null)
+  [ "${RESTARTS:-0}" -ge 2 ] && break
+  sleep 3
+done
