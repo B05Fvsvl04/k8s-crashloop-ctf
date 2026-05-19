@@ -6,7 +6,13 @@
       "text": "intro.md",
       "background": "setup/background.sh"
     },
-    "steps": [],
+    "steps": [
+      {
+        "title": "Recupera la flag",
+        "text": "step1.md",
+        "verify": "verify/verify.sh"
+      }
+    ],
     "finish": {
       "text": "finish.md"
     }
