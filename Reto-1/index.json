@@ -15,7 +15,6 @@
         "hint": "Kubernetes guarda más información de la que muestran los logs."
       }
     ],
-  ],
   "finish": {
     "text": "finish.md"
   }
