@@ -1,0 +1,13 @@
+{
+  "title": "Mi primer escenario",
+  "description": "Prueba basica",
+  "backend": {
+    "imageid": "ubuntu"
+  },
+  "steps": [
+    {
+      "title": "Paso Unico",
+      "text": "step1.md"
+    }
+  ]
+}
